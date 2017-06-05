@@ -8,7 +8,7 @@ $(document).ready(function() {
 		"description": $("#title").val(),
 		"color": 6570404,
 		"thumbnail": {
-		    "url": "https://pbs.twimg.com/profile_images/509073338191183872/fYdty6yd.png",
+		    "url": "https://" + window.location.host + "/now-live/img/twitch.png",
 		},
 		"fields": [
 		    {"name": "Game", "value": $("#game").val(), "inline": true}
